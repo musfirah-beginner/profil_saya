@@ -1,0 +1,73 @@
+* Ini adalah komentar di CSS. Tidak akan ditampilkan. */
+
+/* Gaya Umum untuk Seluruh Halaman (Body) */
+body {
+    font-family: Arial, sans-serif; /* Mengubah jenis huruf */
+    background-color: #c5568a; /* Mengubah warna latar belakang halaman */
+    color: #002aff; /* Mengubah warna teks default */
+    margin: 0; /* Menghilangkan margin bawaan browser */
+    padding: 20px; /* Memberi jarak dari tepi halaman */
+    line-height: 1.6; /* Mengatur tinggi baris teks */
+}
+
+/* Gaya untuk Header */
+header {
+    background-color: #cce4fe; /* Warna latar belakang biru */
+    color: rgb(255, 0, 0); /* Warna teks putih */
+    padding: 20px;
+    text-align: center;
+    border-radius: 8px; /* Sudut sedikit membulat */
+    margin-bottom: 20px;
+}
+
+h1 {
+    margin-top: 0;
+    font-size: 2.5em; /* Ukuran judul utama */
+}
+
+/* Gaya untuk Bagian (Section) */
+section {
+    background-color: rgb(255, 198, 151); /* Latar belakang putih untuk setiap bagian */
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1); /* Efek bayangan ringan */
+}
+
+h2 {
+    color: #007bff; /* Warna biru lebih gelap untuk sub-judul */
+    border-bottom: 2px solid #eee; /* Garis bawah pada sub-judul */
+    padding-bottom: 10px;
+    margin-top: 0;
+}
+
+/* Gaya untuk Foto Profil */
+.foto-profil {
+    width: 150px; /* Lebar foto */
+    height: 150px; /* Tinggi foto */
+    border-radius: 50%; /* Membuat foto menjadi bulat */
+    display: block; /* Membuat foto menjadi elemen blok */
+    margin: 0 auto 15px auto; /* Menempatkan foto di tengah */
+    border: 3px solid #007bff; /* Bingkai biru pada foto */
+    object-fit: cover; /* Memastikan gambar mengisi area tanpa terdistorsi */
+}
+
+/* Gaya untuk Tautan (Link) */
+a {
+    color: #007bff; /* Warna link biru */
+    text-decoration: none; /* Menghilangkan garis bawah pada link */
+}
+
+a:hover {
+    text-decoration: underline; /* Munculkan garis bawah saat kursor diarahkan */
+}
+
+/* Gaya untuk Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    color: #777;
+    font-size: 0.9em;
+    margin-top: 30px;
+    border-top: 1px solid #eee;
+}
