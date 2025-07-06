@@ -3,43 +3,81 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Profil Musfirah</title>
-    <link rel="stylesheet" href="index.css">
-</head>
+    <title>Film/Serial Favoritku</title>
+    <link rel="stylesheet" href="style.css"> </head>
 <body>
 
-    <header>
-        <h1>Halo, Saya Musfirah</h1>
-        <p>Seorang Mahasiswa Farmasi yang Tertarik pada Dunia Coding</p>
+    <header class="main-header">
+        <h1>Koleksi Film & Serial Favoritku</h1>
+        <p>Jelajahi dunia cerita yang paling berkesan bagiku.</p>
     </header>
 
-    <section id="tentang-saya">
-        <h2>Tentang Saya</h2>
-        <img src="IMG_20250606_191624.jpg" alt="IMG_20250606_191624.jpg" class="foto-profil">
-        <p>Saya Musfirah, mahasiswa di jurusan Farmasi. saya kuliah di Universitas Islam Makassar. Belakangan ini, saya sangat tertarik dengan dunia coding dan ingin belajar bagaimana membuat sesuatu yang keren di web!</p>
-        <p>Coding bagi saya bukan hanya tentang baris kode, tapi juga tentang melatih logika dan mewujudkan ide-ide kreatif.</p>
-    </section>
+   <main class="container">
+        <section class="intro-section">
+            <h2>Pilihan Terbaik dari Layarku</h2>
+            <p>
+                Ini adalah daftar film dan serial yang berhasil mencuri perhatianku, dari berbagai genre dan tahun rilis. Aku harap kamu juga menemukan sesuatu yang menarik di sini!
+            </p>
+        </section>
 
-    <section id="minat-hobi">
-        <h2>Minat & Hobi</h2>
-        <ul>
-            <li>Belajar Coding (terutama HTML & CSS)</li>
-            <li>Membaca</li>
-            <li>Menggambar</li>
-            <li>Rebahan</li>
-        </ul>
-    </section>
+        <section class="film-grid">
+            <article class="film-card">
+                <img src="filmfavorit4.jpg" alt="Poster Girl Girl_From_Nowhere" class="film-poster">
+                <div class="film-info">
+                    <h3>GIRL FROM NOWHERE (Tahun Rilis: 2018)</h3>
+                    <p><strong>Genre:</strong> Antologi, Thriller, Misteri, Horror, Fantasi, Drama Remaja</p>
+                    <p><strong>Pemeran Utama:</strong> Chicha Amatayakul</p>
+                    <p class="film-description">
+                         Film ini menceritakan seorang gadis misterius yang bernama nanno.Nanno selalu berpindah-pindah sekolah dan mengungkap kebenaran di balik kedok kesempurnaan sekolah-sekolah tersebut.
+                    </p>
+                    <a href="https://id.wikipedia.org/wiki/Girl_From_Nowhere" target="_blank" class="detail-link">Lihat Detail</a>
+                </div>
+            </article>
 
-    <section id="kontak">
-        <h2>Hubungi Saya</h2>
-        <p>Kamu bisa menemukan saya di:</p>
-        <ul>
-            <li><a href="mailto:musfirah073@gmail.com">Email</a> musfirah073@gmail.com</li>
-        </ul>
-    </section>
+         <article class="film-card">
+                <img src="filmfavorit1.jpg" alt="Poster Mr Queen" class="film-poster">
+                <div class="film-info">
+                    <h3>MR QUENN (Tahun Rilis: 2020)</h3>
+                    <p><strong>Genre:</strong> Sejarah, Komedi romantis, Fantasi, Pertukaran tubuh</p>
+                    <p><strong>Pemeran Utama:</strong> Shin Hye-sun</p>
+                    <p class="film-description">
+                         menceritakan kisah Jang Bong Hwan, seorang koki modern yang jiwanya terperangkap dalam tubuh Ratu Cheorin di era Dinasti Joseon. Cerita yg seru dan juga lucu.
+                    </p>
+                    <a href="https://id.wikipedia.org/wiki/Mr._Queen" target="_blank" class="detail-link">Lihat Detail</a>
+                </div>
+            </article>
 
-    <footer>
-        <p>&copy; 2025 Musfirah. Dibuat dengan semangat Coding!</p>
+        <article class="film-card">
+                <img src="filmfavorit2.jpg" alt="Poster The Legend Of The Blue Sea" class="film-poster">
+                <div class="film-info">
+                    <h3>THE LEGEND OF THE BLUE SEA (Tahun Rilis: 2016)</h3>
+                    <p><strong>Genre:</strong> 	Fantasi,Romansa, Komedi</p>
+                    <p><strong>Pemeran Utama:</strong> Jun Ji-hyun & Lee Min-ho</p>
+                    <p class="film-description">
+                         Kisah cinta antara putri duyung (Shim Chung) dan seorang penipu (Heo Joon Jae) yang memiliki kemiripan dengan bangsawan di masa lalu (Kim Dam Ryung). 
+                    </p>
+                    <a href="https://id.wikipedia.org/wiki/Legend_of_the_Blue_Sea" target="_blank" class="detail-link">Lihat Detail</a>
+                </div>
+            </article>
+
+             <article class="film-card">
+                <img src="filmfavorit3.jpg" alt="Poster Moana 2" class="film-poster">
+                <div class="film-info">
+                    <h3>MOANA 2 ([Tahun Rilis: 2024)</h3>
+                    <p><strong>Genre:</strong> Animasi, Film anak-anak, Film komedi, Musikal, Petualangan, Film fantasi, film keluarga</p>
+                    <p><strong>Pemeran Utama:</strong> Moana</p>
+                    <p class="film-description">
+                        Mengisahkan petualangan baru Moana. Moana didatangi oleh leluhurnya, Tautai Vasa, dalam mimpi yang menceritakan tentang Pulau Motufetu dan kutukannya.  
+                    </p>
+                    <a href="https://id.wikipedia.org/wiki/Moana_2" target="_blank" class="detail-link">Lihat Detail</a>
+                </div>
+            </article>
+
+            </section>
+    </main>
+
+    <footer class="main-footer">
+        <p>&copy; 2025 Koleksi Film/Serial Oleh Musfirah.</p>
     </footer>
 
 </body>
